@@ -250,7 +250,7 @@ Nos mostrará diversas informações, sendo o primeiro deles um hash do commit, 
 
 Normalmente no processo de desnevolvimento de software existem alguns arquivos que não gostariamos que fossem versionados como por exemplo, arquivos compilados, arquivos com senha ou arquivos temporários que são criados por editores.
 
-**.gitginore**
+**.gitignore**
 
 Com o GIT o controle destes arquivos fica muito mais fácil, podemos criar um arquivo chamado .gitignore e passar algumas opções e assim conseguiremos dizer quais arquivos por projeto ou usuário não devem ser publicados.
 A maneira mais simples e fácil de gerenciar as exclusões é criar um arquivo .gitignore no diretório raiz do projeto.
@@ -296,6 +296,63 @@ Adicione o arquivo ao repositório e efetue o commit:
 git add .gitignore
 git commit -m "Adicionado gitignore"
 ```
+
+**Exemplo file (.gitignore):**
+```
+	target/
+
+	!.mvn/wrapper/maven-wrapper.jar
+
+	### STS ###
+	.apt_generated
+	.classpath
+	.factorypath
+	.project
+	.settings
+	.springBeans
+
+	### IntelliJ IDEA ###
+	.idea
+	*.iws
+	*.iml
+	*.ipr
+
+	### NetBeans ###
+	nbproject/private/
+	build/
+	nbbuild/
+	dist/
+	nbdist/
+	.nb-gradle/
+
+	# Compiled class file
+	*.class
+
+	# Log file
+	*.log
+
+	# BlueJ files
+	*.ctxt
+
+	# Mobile Tools for Java (J2ME)
+	.mtj.tmp/
+
+	# Package Files #
+	*.jar
+	*.war
+	*.nar
+	*.ear
+	*.zip
+	*.tar.gz
+	*.rar
+
+	# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+	hs_err_pid*
+	~              
+
+```
+
+
 
 ## Repositorio Remoto
 
