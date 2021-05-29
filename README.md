@@ -1,6 +1,6 @@
 # GIT da Massa!
 
-Documento destinado aos estudos sobre o melhor e mais zica até o momento dos versionadores!! [:smile]
+Documento destinado aos estudos sobre o melhor e mais zica até o momento dos versionadores!!👊😎 
 
 - [GIT da Massa!](#git-da-massa)
   - [Versionamento de Código com GIT](#versionamento-de-código-com-git)
