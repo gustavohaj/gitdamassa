@@ -1,5 +1,35 @@
-## Versionamento de Código com GIT
+# GIT da Massa!
 
+Documento destinado aos estudos sobre o melhor e mais zica até o momento dos versionadores!! [:smile]
+
+- [GIT da Massa!](#git-da-massa)
+  - [Versionamento de Código com GIT](#versionamento-de-código-com-git)
+    - [Versionadores](#versionadores)
+    - [O que é o GIT ?](#o-que-é-o-git-)
+    - [Outros VCS's](#outros-vcss)
+    - [Entendendo o GIT](#entendendo-o-git)
+    - [Instalação do GIT](#instalação-do-git)
+    - [Iniciando um repositório.](#iniciando-um-repositório)
+    - [Os Estados do Git](#os-estados-do-git)
+    - [LOGS GIT](#logs-git)
+    - [Ignorando arquivos no versionamento](#ignorando-arquivos-no-versionamento)
+  - [Repositorio Remoto](#repositorio-remoto)
+  - [Enviando arquivos de um repositório remoto](#enviando-arquivos-de-um-repositório-remoto)
+  - [Recebendo arquivos de um repositório remoto](#recebendo-arquivos-de-um-repositório-remoto)
+    - [Branches](#branches)
+    - [Criando, Listando e Trocando de Branches](#criando-listando-e-trocando-de-branches)
+    - [Merge e Rebase](#merge-e-rebase)
+    - [Ctrl + Z no Git](#ctrl--z-no-git)
+    - [Guardando para depois](#guardando-para-depois)
+    - ["Viajar no tempo" no projeto](#viajar-no-tempo-no-projeto)
+    - [Acompanhando as diferenças](#acompanhando-as-diferenças)
+    - [Realizando nossas releases](#realizando-nossas-releases)
+    - [Exibidos os responsáveis](#exibidos-os-responsáveis)
+    - [Cherry-pick](#cherry-pick)
+
+
+
+## Versionamento de Código com GIT
 
 Versionamento de código é o processo de se criar versões de códigos de acordo com uma linha do tempo para o andamento dos desenvolvimento de melhorias, correções ou novas funcionalidades.
 
